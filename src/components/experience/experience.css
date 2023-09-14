@@ -1,0 +1,39 @@
+.experience_list{
+
+}
+.experience_list img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.experience{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 500px; */
+  margin-bottom: 30px;
+}
+.experience h1{
+  font-size: 20px;
+  color: var(--clr-primary);
+}
+
+@media (min-width:35rem){
+  .experience_list img{
+    width: 100px;
+  height: 100px;
+  }
+     .experience{
+      /* flex-direction: row; */
+      max-width: 750px;
+      justify-content: left;
+
+     }
+     .experience h1{
+      font-size: 30px;
+     }
+}
