@@ -5,16 +5,17 @@ import addis from '../../assets/aastu2.png'
 import nerd from '../../assets/nerd.png'
 function Experience() {
    return (
-      <div className='container'>
+      <div className='container full-height'>
          <div className="wrapper">
             <div>
-               <h1 className='text-center text-secondary fs-1 mb1'>Experience</h1>
+            <h1 className='text-center text-secondary fs-1 mb1'>Experiance</h1>
                <div className="experience_list">
                   <div className="experience" data-aos="fade-left" >
                      <img src={insa} alt="" />
                      <div>
                         <h1 className='fs-2 '>Information Network Security Administration</h1>
                         <p className='fs-3 '> Senior Fullstack Software Engineer</p>
+                        <p className='fs-3'>2023</p>
                      </div>
                      {/* <p>Responsibility: </p> */}
                      {/* <ul>
@@ -33,6 +34,7 @@ function Experience() {
                      <div>
                         <h1 className='fs-2 '>Addis Ababa Science And Technology University</h1>
                         <p className='fs-3 '> Developer in IOT Application development </p>
+                        <p className='fs-3'>2022</p>
                      </div>
                   </div>
                   <div className="experience" data-aos="fade-left" >
@@ -41,7 +43,7 @@ function Experience() {
                     <div>
                     <h1 className='fs-2 '>New Era Research And Development Center</h1>
                      <p className='fs-3 '> Programmer in Hardware control system design </p>
-
+                        <p className='fs-3'>2021</p>
                     </div>
                   </div>
                </div>

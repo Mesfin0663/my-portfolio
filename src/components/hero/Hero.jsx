@@ -1,10 +1,10 @@
 import React from 'react'
 import profile from '../../assets/DSC_2330.jpg'
 import ParticlesComp from '../particles/ParticlesComp'
-
+import './hero.css'
 function Hero() {
   return (
-    <div className="container   " id="home">
+    <div className="container container-b-p" id="home">
       <div className="wrapper ">
 
         <div>

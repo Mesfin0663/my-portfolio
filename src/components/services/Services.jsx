@@ -1,9 +1,9 @@
 import React from 'react'
 import ParticlesComp from '../particles/ParticlesComp'
-
+import './services.css'
 function Services() {
     return (
-        <div className='container services'>
+        <div className='container services container-b-p'>
 
             <div className='wrapper'>
 

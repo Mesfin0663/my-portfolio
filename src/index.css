@@ -110,10 +110,15 @@ p{
  /* max-width: 80rem; */
  height: 100%;
  width: 100%;
- padding-block: 60px;
+ /* padding-block: 60px; */
  
 }
-
+.full-height{
+  height: 100vh;
+}
+.container-b-p{
+  padding-block: 50px;
+}
 .btn{
   /* display: flex; */
   padding: 15px 25px;
@@ -134,6 +139,7 @@ p{
 } */
 .box{
   width: 100%;
+  max-width: 400px;
   height: 250px;
   background-color: var(--clr-background-2);
   border-radius: 20px;
@@ -176,7 +182,7 @@ p{
     display: flex;
   }
   .container{
-    padding-left: 310px;
+    padding-left: 330px;
   }
   .wrapper{
     justify-content: left;
